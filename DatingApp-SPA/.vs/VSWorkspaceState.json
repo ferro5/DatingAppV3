@@ -3,7 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\register"
+    "\\src\\app\\register",
+    "\\src\\app\\_services"
   ],
+  "SelectedNode": "\\src\\app\\_services\\error.interceptor.ts",
   "PreviewInSolutionExplorer": false
 }

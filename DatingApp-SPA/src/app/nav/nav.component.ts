@@ -17,7 +17,7 @@ model: any = {};
      next => {
        console.log('login successfully');
      }, error => {
-       console.log('failed to login');
+       console.log(error);
      }
    );
   }
