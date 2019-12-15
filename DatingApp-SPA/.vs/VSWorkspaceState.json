@@ -3,9 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\register",
+    "\\src\\app\\members",
+    "\\src\\app\\members\\member-detail",
     "\\src\\app\\_services"
   ],
-  "SelectedNode": "\\src\\app\\_services\\auth.service.ts",
   "PreviewInSolutionExplorer": false
 }

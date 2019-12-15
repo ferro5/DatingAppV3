@@ -1,7 +1,7 @@
 import {Photo} from './photo';
 import { from } from 'rxjs';
 export interface User {
-    int: number;
+    id: number;
     username: string;
     knownAs: string;
     age: number;
@@ -11,7 +11,7 @@ export interface User {
     photoUrl: string;
     city: string;
     country: string;
-    interesrs?: string;
+    interests?: string;
     introduction?: string;
     lookingFor?: string;
     photos?: Photo[];

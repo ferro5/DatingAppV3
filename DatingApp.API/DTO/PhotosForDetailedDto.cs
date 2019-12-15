@@ -5,14 +5,13 @@ using System.Threading.Tasks;
 
 namespace DatingApp.API.DTO
 {
-    public class PhotosForDetailedDto
+    public class PhotosForDetaiedDto
     {
         public int Id { get; set; }
         public string Url { get; set; }
         public string Description { get; set; }
         public DateTime DateAdded { get; set; }
         public bool IsMain { get; set; }
-        public string PhotoUrl { get; set; }
-       
+
     }
 }
