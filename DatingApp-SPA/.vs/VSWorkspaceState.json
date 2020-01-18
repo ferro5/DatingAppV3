@@ -5,7 +5,9 @@
     "\\src\\app",
     "\\src\\app\\members",
     "\\src\\app\\members\\member-detail",
+    "\\src\\app\\nav",
     "\\src\\app\\_services"
   ],
+  "SelectedNode": "\\src\\app\\nav\\nav.component.ts",
   "PreviewInSolutionExplorer": false
 }

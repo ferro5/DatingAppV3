@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="card">
-        <img class="card-img-top img-thumbnail" src="{{user.photoUrl}}" alt="{{user.knownAs}}">
+        <img class="card-img-top img-thumbnail" src="{{user.photoUrl || '../../../assets/images.jpg'}}" alt="{{user.knownAs}}">
         <div class="card-body">
           <div>
             <strong>Location: <p>{{user.city}}, {{user.country}}</p></strong>
@@ -16,7 +16,7 @@
           <div>
             <strong>Member since:<p>{{user.lastActive}}</p></strong>
           </div>
-        </div>        
+        </div>
      </div>
       <div class="card-footer">
         <div class="btn-group d-flex">
@@ -38,7 +38,7 @@
             <h4>Interests:</h4>
             <p>{{user.interests}}</p>
           </tab>
-          <tab heading="Photos"> 
+          <tab heading="Photos">
             <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
           </tab>
           <tab heading="Messages">
