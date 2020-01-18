@@ -62,7 +62,7 @@ namespace DatingApp.API
                 {
                     opt.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
                 });
-
+            services.AddScoped<LogUserActivity>();
 
         }
 

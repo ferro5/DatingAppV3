@@ -11,10 +11,10 @@
             <strong>Age:<p>{{user.age}}</p></strong>
           </div>
           <div>
-            <strong>Last Active:<p>{{user.lastActive}}</p></strong>
+            <strong>Last Active:<p>{{user.lastActive | timeAgo}}</p></strong>
           </div>
           <div>
-            <strong>Member since:<p>{{user.lastActive}}</p></strong>
+            <strong>Member since:<p>{{user.created | date: 'mediumDate'}}</p></strong>
           </div>
         </div>
      </div>
